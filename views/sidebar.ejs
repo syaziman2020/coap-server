@@ -1,0 +1,62 @@
+<!-- ======= Header ======= -->
+<header id="header" class="header fixed-top d-flex align-items-center">
+  <div class="d-flex align-items-center justify-content-between">
+    <a href="/" class="logo d-flex align-items-center">
+      <img src="/img/plant.png" alt="" />
+      <span class="d-none d-lg-block">Sistem Pemantauan Tanaman</span>
+    </a>
+    <i class="bi bi-list toggle-sidebar-btn"></i>
+  </div>
+  <!-- End Logo -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+    <ul class="sidebar-nav" id="sidebar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/">
+          <i class="bi bi-grid"></i>
+          <span>Dashboard</span>
+        </a>
+      </li>
+      <!-- End Dashboard Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#parameter-nav" data-bs-toggle="collapse" href="#"> <i class="bi bi-grid"></i><span>Parameter</span><i class="bi bi-chevron-down ms-auto"></i> </a>
+        <ul id="parameter-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="/powerConsumption"> <i class="bi bi-circle"></i><span>Konsumsi Daya</span> </a>
+          </li>
+          <li>
+            <a href="/delay"> <i class="bi bi-circle"></i><span>Delay</span> </a>
+          </li>
+          <li>
+            <a href="/throughput"> <i class="bi bi-circle"></i><span>Throughput</span> </a>
+          </li>
+          <li>
+            <a href="/payloadSize"> <i class="bi bi-circle"></i><span>Ukuran Paket Data</span> </a>
+          </li>
+        </ul>
+      </li>
+      <!-- End Parameter Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="/logs">
+          <i class="bi bi-grid"></i>
+          <span>Log Pengiriman</span>
+        </a>
+      </li>
+      <!-- End Parameter Nav -->
+
+      <li class="nav-heading">Pages</li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="users-profile.html">
+          <i class="bi bi-person"></i>
+          <span>Profile</span>
+        </a>
+      </li>
+      <!-- End Profile Page Nav -->
+    </ul>
+  </aside>
+  <!-- End Sidebar-->
+</header>
